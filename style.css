@@ -1,0 +1,112 @@
+body{
+    font-family: 'Fondamento', cursive;
+}
+header{
+    padding: 30px 100px;
+    margin-bottom: 30px;
+    background: #F0FFF0;
+}
+nav{
+    background: #F0FFF0;
+}
+#logo{
+    /*to modify logo*/
+    width: 198.07px;
+    height: 59px;
+}
+
+/*#navbarNav{
+    padding-top: 30px;
+    padding-right: 100px;
+}*/
+.btn{/*to modify bitton*/
+background: #21B573;
+border-radius: 33px;
+border: none;
+}
+#red_p{/*red text of header*/
+    color: red;
+}
+#header_span{
+    color: #21B573;
+}
+#illus_img{/*imgg of header*/
+width: 100%;
+}
+.container{/*to modify each section*/
+    margin-bottom: 30px;
+}
+.topic div div img{/*to modify img of topic section*/
+    width: 25%;
+}
+.topic div div{/*to remove the border of cards*/
+    border: none;
+    border-radius: 10px;
+}
+.card:hover{
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+h3{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.Testimonial
+{
+    width: 60%;
+}
+.Testimonial div div img{/*to modify the imgs of test. section*/
+    width: 100%;
+}
+footer{
+    background-color: #282531;
+    color: #F0FFF0;
+    /*margin-bottom: 0px;
+    bottom: 0px;*/
+}
+footer div div{/*to align the text boxes of footer*/
+    margin: 40px 0px 60px 50px;
+}
+footer div div a{/*as all the text are assumed as links*/
+    color: #F0FFF0;
+}
+footer div div a:hover{/*because the decoration of links vanishes while mouse hovering*/
+    font-size: 110%;
+    color: #F0FFF0;
+    text-decoration: none;
+}
+#footer_p{/*the bottom most text of footer*/
+text-align: center;
+}
+.card_icon{
+    height: 24px;
+    width: 24px;
+    display: inline;
+}
+.card{
+    margin: auto;
+    margin-bottom: 15px;
+}
+.card-footer{
+    border: none;
+}
+.car_img{/*img of carousel*/
+    height: 100px;
+    border-radius: 10px;
+}
+.car_div{/*the section of carousel*/
+    background-image: radial-gradient(#f0fff0,#21b573);
+    border-radius: 10px;
+}
+@media only screen and (max-width: 600px) {
+    .car_img{
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .footer_box{
+        width: 600px;
+        text-align: center;
+    }
+    .navbar-toggler{
+        margin: auto;
+    }
+  }
